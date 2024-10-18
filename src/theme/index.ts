@@ -13,7 +13,6 @@ export {
   createRestyleComponent,
   createText,
   createTheme,
-  createVariant,
 } from "@shopify/restyle";
 
 export const theme = createTheme({
@@ -66,48 +65,6 @@ export const theme = createTheme({
       lineHeight: 22,
       fontWeight: "700",
       color: "text",
-    },
-    progress_step: {
-      fontSize: 14,
-      lineHeight: 20,
-      fontWeight: "600",
-      textAlign: "center",
-    },
-    title: {
-      marginTop: 5,
-      alignSelf: "stretch",
-      fontSize: 14,
-      lineHeight: 20,
-      fontWeight: "600",
-      color: "title",
-      textAlign: "left",
-    },
-    titleHeader: {
-      fontSize: 16,
-      fontWeight: "600",
-      color: "title",
-    },
-    titleEmpty: {
-      fontSize: 18,
-      fontWeight: "bold",
-      color: "secondary",
-    },
-    contentEmpty: {
-      fontSize: 14,
-      color: "gray888",
-      width: 246,
-      textAlign: "center",
-    },
-    font14: {
-      fontSize: 14,
-    },
-    font20: {
-      fontSize: 20,
-    },
-    font22: {
-      fontSize: 22,
-      lineHeight: 28,
-      fontWeight: "700",
     },
   },
   cardVariants: {
